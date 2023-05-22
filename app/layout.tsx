@@ -1,5 +1,13 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import Navbar from './conponents/navbar/Navbar'
+import Home from './conponents/home/Home'
+import Blog from './conponents/blog/Blog'
+import Features from './conponents/features/Features'
+import Review from './conponents/reviews/Review'
+import About from './conponents/about/About'
+import Contact from './conponents/contacts/Contact'
+import Footer from './conponents/footer/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +23,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className} >
+        {/* <div className='shadow-slate-50 max-w-screen-xl bg-gray-400 ma justify-center'> */}
+         <Navbar />
+          <Home />
+          <Blog />
+          <Features />
+          <Review />
+          <About />
+          <Contact />
+          <Footer />
+          {/* {children} */}
+        {/* </div> */}
+        </body>
     </html>
   )
 }

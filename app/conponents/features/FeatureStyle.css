@@ -1,0 +1,14 @@
+.featuresSection{
+    width: 100%;
+    height: 100%;
+}
+.features{
+    width: 100%;
+    height: 300px;
+    background-color: #0a1a44;
+    color: #fff;
+}
+.features:hover{
+    cursor: pointer;
+    background-color: #060f29;
+}
