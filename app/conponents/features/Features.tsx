@@ -6,7 +6,7 @@ function Features() {
   return (
     <section className="featuresSection ">
         <div className="features-container">
-            <h1 className='text-[black] leading-none'>BuyBooster's <br/> Best Features</h1>
+            <h1 className='text-[black] leading-none'>BuyBoosters <br/> Best Features</h1>
         </div>
 
         <div className="features-content flex">

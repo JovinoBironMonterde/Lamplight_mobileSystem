@@ -11,7 +11,7 @@ function Review() {
                 <i className="fa-sharp fa-solid fa-quote-left"></i>
                 <p className='mt-10 ' >Testimonials are short
                     quotes from people who
-                    love your brand. It's a great
+                    love your brand. Its a great
                     way to convince customers
                     to try your services.
                 </p>
@@ -22,7 +22,7 @@ function Review() {
                 <i className="fa-sharp fa-solid fa-quote-left"></i>
                 <p className='mt-10'>Testimonials are short
                     quotes from people who
-                    love your brand. It's a great
+                    love your brand. Its a great
                     way to convince customers
                     to try your services.
                 </p>
@@ -33,7 +33,7 @@ function Review() {
                 <i className="fa-sharp fa-solid fa-quote-left"></i>
                 <p className='mt-10'>Testimonials are short
                     quotes from people who
-                    love your brand. It's a great
+                    love your brand. Its a great
                     way to convince customers
                     to try your services.
                 </p>

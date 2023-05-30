@@ -7,7 +7,7 @@ import profile from '../../../public/assets/images/mobile-image.png';
 function Home() {
   return (
     <section className='homeSection  flex items-center justify-center'>
-      <div className='home-container flex justify-evenly items-center sm:block'>
+      <div className='home-container flex justify-evenly items-center '>
         <div className='w-full pl-10'>
           {/* <div className="logo my-10 -mt-16">
           <Image src={logo}  alt='/' />
