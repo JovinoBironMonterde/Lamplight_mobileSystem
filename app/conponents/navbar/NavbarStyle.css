@@ -1,3 +1,7 @@
 ul{
     color: white;
 }
+.nvbar{
+    z-index: 99999999999999999;
+    display: block;
+}

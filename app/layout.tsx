@@ -2,7 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Navbar from './conponents/navbar/Navbar'
 import Home from './conponents/home/Home'
-import Blog from './conponents/blog/Blog'
+import Blog from './conponents/blog/page'
 import Features from './conponents/features/Features'
 import Review from './conponents/reviews/Review'
 import About from './conponents/about/About'
@@ -25,7 +25,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className} >
         {/* <div className='shadow-slate-50 max-w-screen-xl bg-gray-400 ma justify-center'> */}
+        <div className='cstmindex'> 
          <Navbar />
+         </div>
+         
+
           <Home />
           <Blog />
           <Features />
